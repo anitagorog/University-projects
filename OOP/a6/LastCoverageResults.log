@@ -1,0 +1,21 @@
+[2023-05-01 14:26:50] [info] Start Program:
+Path:"C:\Users\Anita\source\repos\a6-913-Gorog-Anita-1\Project1\x64\Debug\Project1.exe"
+Arguments:
+Working directory: "C:\Users\Anita\source\repos\a6-913-Gorog-Anita-1\Project1\Project1\"
+Modules: Selected: C:\Users\Anita\source\repos\a6-913-Gorog-Anita-1\Project1\x64\Debug\Project1.exe Excluded: 
+Sources: Selected: C:\Users\Anita\source\repos\a6-913-Gorog-Anita-1\Project1\Project1 Excluded: Ui.cpp 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Anita\AppData\Local\Temp\o0xhg12m.i3w 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-05-01 14:26:50] [info] Module: C:\Users\Anita\source\repos\a6-913-Gorog-Anita-1\Project1\x64\Debug\Project1.exe is selected because it matches selected pattern: C:\Users\Anita\source\repos\a6-913-Gorog-Anita-1\Project1\x64\Debug\Project1.exe
+[2023-05-01 14:26:53] [info] ----------------------------------------------------
+[2023-05-01 14:26:53] [info] Coverage binary generated in file: C:\Users\Anita\AppData\Local\Temp\o0xhg12m.i3w
+[2023-05-01 14:26:53] [info] ----------------------------------------------------
