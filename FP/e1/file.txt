@@ -1,0 +1,11 @@
+block;x,x,n,x,x
+tub;0,x,0,n,x,0,x,n,0,x,0
+blinker;0,0,0,n,x,x,x,n,0,0,0
+blinker2;x,x,x,n,0,0,0,n,x,x,x
+beacon;x,x,0,0,n,x,x,0,0,n,0,0,x,x,n,0,0,x,x
+beacon2;x,x,0,0,n,x,0,0,0,n,0,0,0,x,n,0,0,x,x
+spaceship1;0,x,0,0,n,0,0,x,0,n,x,x,x,0,n,0,0,0,0
+spaceship2;0,0,0,0,n,x,0,x,0,n,0,x,x,0,n,0,x,0,0
+spaceship3;0,0,0,0,n,0,0,x,0,n,x,0,x,0,n,0,x,x,0
+spaceship4;0,0,0,0,n,0,x,0,0,n,0,0,x,x,n,0,x,x,0
+spaceship5;0,0,0,0,n,0,0,x,0,n,0,0,0,x,n,0,x,x,x

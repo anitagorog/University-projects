@@ -1,0 +1,10 @@
+isbn1,Alexander Hope,Crave
+isbn2,Emma Pierce,Apple
+isbn3,Emma Levine,Pineapple
+isbn4,Alexander Levine,Mother
+isbn5,Emma Raven,Father
+isbn6,Ezra Levine,Sister
+isbn7,Anthony Pierce,Brother
+isbn8,Anthony Hope,Family
+isbn9,Emma Raven,Glass
+isbn10,Anthony Levine,Mirror
