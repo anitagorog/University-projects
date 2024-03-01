@@ -1,0 +1,961 @@
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+v->2
+Out:
+false
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+v->2
+Out:
+false
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+v->2
+Out:
+false
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+v->2
+Out:
+false
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+v->2
+Out:
+false
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+v->2
+Out:
+false
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+v->2
+Out:
+false
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+v->2
+Out:
+false
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+v->2
+Out:
+false
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=2}}, snd=PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=2}}
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=LogicExp{ValueExp{e=true}&&ValueExp{e=false}}}
+SymTable:
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+v->2
+Out:
+false
+FileTable:
+HeapTable:
+

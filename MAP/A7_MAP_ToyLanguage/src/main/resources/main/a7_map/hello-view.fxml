@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="367.0" prefWidth="477.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.a7_map.HelloController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <HBox prefHeight="377.0" prefWidth="438.0" VBox.vgrow="ALWAYS">
+      <children>
+         <ListView fx:id="programsListView" prefHeight="327.0" prefWidth="356.0" HBox.hgrow="ALWAYS" />
+         <VBox alignment="CENTER" prefHeight="106.0" prefWidth="121.0" HBox.hgrow="ALWAYS">
+            <children>
+               <Label fx:id="MyLabel" text="text" />
+              <Button fx:id="MyButton" onAction="#runProgram" text="Select" />
+            </children>
+         </VBox>
+      </children>
+   </HBox>
+</VBox>

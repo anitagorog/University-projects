@@ -1,0 +1,800 @@
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=bool}, snd=CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}}
+SymTable:
+Out:
+FileTable:
+log3.txt
+
+ExeStack:
+VarDeclStmt{name='a', typ=bool}
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+log3.txt
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+log3.txt
+
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+log3.txt
+
+ExeStack:
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+log3.txt
+
+ExeStack:
+AssignStmt{id='a', exp=ValueExp{e=true}}
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+log3.txt
+
+ExeStack:
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+log3.txt
+
+ExeStack:
+(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}}))
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+log3.txt
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->2
+Out:
+FileTable:
+log3.txt
+
+ExeStack:
+SymTable:
+a->true
+v->2
+Out:
+2
+FileTable:
+log3.txt
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=bool}, snd=CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=bool}
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=bool}
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='a', exp=ValueExp{e=true}}
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='a', exp=ValueExp{e=true}}
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}}))
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}}))
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+a->true
+v->2
+Out:
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=bool}, snd=CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=bool}
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=bool}
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='a', exp=ValueExp{e=true}}
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='a', exp=ValueExp{e=true}}
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}}))
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}}))
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+a->true
+v->2
+Out:
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=bool}, snd=CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=bool}
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=bool}
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='a', exp=ValueExp{e=true}}
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='a', exp=ValueExp{e=true}}
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}}))
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}}))
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+a->true
+v->2
+Out:
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=bool}, snd=CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=bool}
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=bool}
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='a', exp=ValueExp{e=true}}, snd=CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='a', exp=ValueExp{e=true}}
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='a', exp=ValueExp{e=true}}
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->false
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}})), snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}}))
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+(IF(VarExp{id='a'})THEN(AssignStmt{id='v', exp=ValueExp{e=2}})ELSE(AssignStmt{id='v', exp=ValueExp{e=3}}))
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+a->true
+v->2
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+a->true
+v->2
+Out:
+2
+FileTable:
+HeapTable:
+

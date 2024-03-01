@@ -1,0 +1,6546 @@
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=4}}
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=4}}
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ExeStack:
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(v, ValueExp{e=20})
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(v, ValueExp{e=20})
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+SymTable:
+v->(2, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->20
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+SymTable:
+v->(2, int)
+Out:
+FileTable:
+HeapTable:
+2->20
+
+ExeStack:
+SymTable:
+v->(2, int)
+Out:
+20
+FileTable:
+HeapTable:
+2->20
+
+ExeStack:
+SymTable:
+v->(2, int)
+Out:
+20
+FileTable:
+HeapTable:
+2->20
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(3, int)
+3->30
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+2->(3, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+30
+FileTable:
+HeapTable:
+2->(3, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+30
+FileTable:
+HeapTable:
+2->(3, int)
+3->30
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(3, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+30
+FileTable:
+HeapTable:
+1->20
+2->(3, int)
+3->30
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(3, int)
+3->30
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+2->(3, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+30
+FileTable:
+HeapTable:
+2->(3, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+30
+FileTable:
+HeapTable:
+2->(3, int)
+3->30
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=4}}
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=4}}
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ExeStack:
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+HeapTable:
+
+ExeStack:
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+wHStmt{Var_Name='v', expression=ValueExp{e=30}}
+PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+wHStmt{Var_Name='v', expression=ValueExp{e=30}}
+PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->30
+
+ExeStack:
+PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->30
+
+ExeStack:
+SymTable:
+v->(1, int)
+Out:
+20
+35
+FileTable:
+HeapTable:
+1->30
+
+ExeStack:
+SymTable:
+v->(1, int)
+Out:
+20
+35
+FileTable:
+HeapTable:
+1->30
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(3, int)
+3->30
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+2->(3, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+30
+FileTable:
+HeapTable:
+2->(3, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+30
+FileTable:
+HeapTable:
+2->(3, int)
+3->30
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(3, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+30
+FileTable:
+HeapTable:
+1->20
+2->(3, int)
+3->30
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(0, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(0, Ref(int))
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(0, int)
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(0, Ref(int))
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(0, int)
+3->30
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(3, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+30
+FileTable:
+HeapTable:
+1->20
+2->(3, int)
+3->30
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+2->(1, int)
+3->30
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+PrintStmt{exp=VarExp{id='a'}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+PrintStmt{exp=VarExp{id='a'}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='a'}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+(1, int)
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='a'}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+(1, int)
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+(1, int)
+(2, Ref(int))
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+20
+25
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+wHStmt{Var_Name='v', expression=ValueExp{e=30}}
+PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+wHStmt{Var_Name='v', expression=ValueExp{e=30}}
+PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->30
+
+ID:0
+ExeStack:
+PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->30
+
+ID:0
+ExeStack:
+SymTable:
+v->(1, int)
+Out:
+20
+35
+FileTable:
+HeapTable:
+1->30
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=4}}
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=4}}
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+SymTable:
+v->(2, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->20
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+SymTable:
+v->(2, int)
+Out:
+FileTable:
+HeapTable:
+2->20
+
+ID:0
+ExeStack:
+SymTable:
+v->(2, int)
+Out:
+20
+FileTable:
+HeapTable:
+2->20
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ID:0
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=PrintStmt{exp=VarExp{id='a'}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+PrintStmt{exp=VarExp{id='a'}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+PrintStmt{exp=VarExp{id='a'}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='a'}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+(1, int)
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='a'}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+(1, int)
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+(1, int)
+(2, Ref(int))
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=ArithExp{e1=rHExp{exp=rHExp{exp=VarExp{id='a'}}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+20
+25
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}, snd=CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=wHStmt{Var_Name='v', expression=ValueExp{e=30}}, snd=PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+wHStmt{Var_Name='v', expression=ValueExp{e=30}}
+PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+wHStmt{Var_Name='v', expression=ValueExp{e=30}}
+PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->30
+
+ID:0
+ExeStack:
+PrintStmt{exp=ArithExp{e1=rHExp{exp=VarExp{id='v'}}, e2=ValueExp{e=5}, op=1}}
+SymTable:
+v->(1, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->30
+
+ID:0
+ExeStack:
+SymTable:
+v->(1, int)
+Out:
+20
+35
+FileTable:
+HeapTable:
+1->30
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=int}, snd=CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=int}
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=AssignStmt{id='v', exp=ValueExp{e=4}}, snd=CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=4}}
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ValueExp{e=4}}
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->0
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}, snd=PrintStmt{exp=VarExp{id='v'}}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->4
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->3
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->2
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=PrintStmt{exp=VarExp{id='v'}}, snd=AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+AssignStmt{id='v', exp=ArithExp{e1=VarExp{id='v'}, e2=ValueExp{e=1}, op=2}}
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->1
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+WhileStmt{exp=RelExp{VarExp{id='v'}>=ValueExp{e=0}}}
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+PrintStmt{exp=VarExp{id='v'}}
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+SymTable:
+v->0
+Out:
+4
+3
+2
+1
+0
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+SymTable:
+v->(2, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->20
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=VarExp{id='v'}}}
+SymTable:
+v->(2, int)
+Out:
+FileTable:
+HeapTable:
+2->20
+
+ID:0
+ExeStack:
+SymTable:
+v->(2, int)
+Out:
+20
+FileTable:
+HeapTable:
+2->20
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='v', typ=Ref(int)}, snd=CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+VarDeclStmt{name='v', typ=Ref(int)}
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=20}), snd=CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=20})
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(0, int)
+Out:
+FileTable:
+HeapTable:
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=VarDeclStmt{name='a', typ=Ref(Ref(int))}, snd=CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+VarDeclStmt{name='a', typ=Ref(Ref(int))}
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(a, VarExp{id='v'}), snd=CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+new(a, VarExp{id='v'})
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(0, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+CompStmt{first=new(v, ValueExp{e=30}), snd=PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+new(v, ValueExp{e=30})
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(1, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ID:0
+ExeStack:
+PrintStmt{exp=rHExp{exp=rHExp{exp=VarExp{id='a'}}}}
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
+ID:0
+ExeStack:
+SymTable:
+a->(2, Ref(int))
+v->(3, int)
+Out:
+20
+FileTable:
+HeapTable:
+1->20
+2->(1, int)
+3->30
+
