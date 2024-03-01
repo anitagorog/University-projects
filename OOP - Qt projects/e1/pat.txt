@@ -1,0 +1,9 @@
+maria,diagnosed,spec,dan,20231606
+zez,diagnosed,spec1,elena,20231606
+yey,diagnosed,spec1,elena,20231606
+yeyy,diag,spec2,elena,20231606
+zz,diag,spec1,,20231607
+z,undiagnosed,,,20231607
+zed,undiagnosed,,,20231607
+new,diagnosed,spec1,elena,20231608
+me,diagnosed,spec2,ana,20231608
